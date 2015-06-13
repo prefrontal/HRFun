@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>HRFun Help</title>
+	<META NAME="AppleTitle" CONTENT="HRFunHelp">
+	<meta name="generator" content="BBEdit 8.2" />
+</head>
+<body>
+
+	<H1><U><font color=#008822>HRFun Help</font></U></H1><P>
+	
+	HRFun is a simple application that allows the user to explore the construction of a canonical hemodynamic response function (HRF).  To make the HRF it uses the sum of two gamma functions to model different aspects of the curve.  One function models the initial response and a second models the tail undershoot.  This is the same strategy used by the Statistical Parametric Mapping software (SPM).<P>	
+
+	&nbsp;<br>
+
+	<U><B>Parameter Values:</B></U><P>
+
+	<I>TR:</I> Time of repetition.  This is a value in seconds that indicates how frequently you are sampling the HRF.  For most fMRI protocols this will be in the neighborhood of 1.5-2.5 seconds.<P>
+	
+	<I>Onset Time:</I> Point in time when the function begins.  In an experiment this would be the time when the stimulus was applied.  Negative vales indicate an early stimulus onset and positive values indicate a late stimulus onset.  Value is in seconds.<P>
+	
+	<I>Length of Kernel:</I> The canonical HRF is typically convolved with an impulse function to yield the final design matrix.  This value represents how much of the HRF to model.  The default is 32 seconds, giving plenty of time for the full response to play out.<P>
+	
+	<I>Response Delay:</I> This value represents how long the initial response takes to reach its peak value.  The default is 6 seconds, which is the average lag for an actual hemodynamic response to reach its peak.<P>
+	
+	<I>Response Dispersion:</I> This value determines the spread of the initial response.<P>
+	
+	<I>Undershoot Delay:</I> How long the tail undershoot takes to reach its minimum value.  The default is 16 seconds.<P>
+	
+	<I>Undershoot Dispersion:</I> Determines the spread of the tail undershoot.<P>
+	
+	<I>Response / Undershoot Ratio:</I> In the brain the initial response is always of larger magnitude than the tail undershoot.  This value controls the proportionality of that relationship.  The default is 6, meaning the tail undershoot is six times smaller than the initial response.<P>
+	
+	&nbsp;<br>
+	
+	<U><B>Graph Checkboxes:</B></U><P>
+	
+	<I>Response:</I> Enable graphing of the gamma function representing the initial response. [Red]<P>
+	
+	<I>Undershoot:</I> Enable graphing of the gamma function representing the late undershoot. [Blue]<P>
+	
+	<I>HRF:</I> Enable graphing of complete hemodynamic response function. [Green]<P>
+	
+	<I>Lines:</I> Draw lines between the data points of each function.  When disabled this will plot dots at each data location.<P>
+	
+	&nbsp;<br>
+	
+	<U><B>Other Notes:</B></U><P>
+	
+	<I>Reset Parameters:</I> Located under the data menu.  When selected this will reset all parameter values to their initial states.  Useful when you have extensively changes the values and want to start over.<P>
+	
+	&nbsp;<P>
+	
+</body>
+</html>

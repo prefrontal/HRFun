@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A3DA3865-C2A5-4420-BB7B-88C9E456A07D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HRFun</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1E1B985E9EEE90DD014D6C3C9C0A7FD414AE1A6A</key>
+		<string>https://github.com/prefrontal/HRFun.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HRFun.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1E1B985E9EEE90DD014D6C3C9C0A7FD414AE1A6A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/prefrontal/HRFun.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1E1B985E9EEE90DD014D6C3C9C0A7FD414AE1A6A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1E1B985E9EEE90DD014D6C3C9C0A7FD414AE1A6A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HRFun</string>
+		</dict>
+	</array>
+</dict>
+</plist>
