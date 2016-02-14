@@ -1,5 +1,5 @@
 # HRFun
-Hemodynamic response explorer for OS X (2008)
+Hemodynamic response explorer for OS X
 
 HRFun is a Mac OS X application that lets you explore the construction of a canonical hemodynamic response (HRF). The HRF is typically constructed from the combination of two gamma functions, one to model the initial response and one to model the later undershoot. Using this method to create an HRF there are eight different parameters that can be used to adjust different aspects of the final response. HRFun allows you to tweak each one, allowing you to explore 'what would happen if...' in real time.
 
